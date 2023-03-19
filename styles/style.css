@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* ----------------------------------- Header ----------------------------------- */
+.header {
+    margin: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3A3A3A;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    background-color: rgb(213, 192, 28);
+    padding: 5px;
+
+}
+
+
+/* ----------------------------------------- Banner -------------------------------------- */
+
+.banner {
+    display: flex;
+    gap: 100px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin-top: 100px;
+}
+
+.banner-description {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+    margin: 16px 0;
+}
+
+.banner img {
+    width: 440px;
+    height: 414px;
+    margin: 80px 0;
+}
+
+/* --------------------------Button-1 ----------------------- */
+.btn-book {
+    border: none;
+    color: #FFFFFF;
+    background: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* --------------------------------Different type of Online company ----------------------------------------------------- */
+.company-container {
+    align-items: center;
+    display: flex;
+    background-color: #ececec;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 100px 165px;
+
+}
+
+.company-container img {
+    width: 55.05px;
+    height: 31.06px;
+}
+
+/*----------------------------------------------- Main Section-------------------------------------------- */
+main {
+
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.collection-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+
+.collection-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+}
+
+.collection {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.collection img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.dsc-container {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+.value {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn-see {
+    border: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 24px;
+    margin: 10px 0 0 86%;
+}
+
+/*----------------------------------- Featured-products ----------------- */
+.Featured-products-container {
+    display: flex;
+    margin: 50px;
+    column-gap: 50px;
+}
+
+.Featured-products-container img {
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+
+}
+
+.Featured-products-title {
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 20px;
+    color: #0A0826;
+}
+
+.product-description {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+
+.btn-join {
+    flex: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+}
+
+/* ----------------------------------------footer ---------------------------------------- */
+.foot-container {
+    text-align: center;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 50px 0;
+    margin: 0px;
+}
+
+.foot-title {
+    font-weight: 700;
+font-size: 24px;
+}
+
+.foot-description {
+font-weight: 700;
+font-size: 14px;
+
+}
+.filled{
+    color:#FB8200;
+    font-size: 0.8em;
+}
+.fa-star-half-full{
+color:#FB8200;
+
+    font-size: 0.8em;
+}
+.social i{
+    font-size: 0.8em;
+    margin: 5px;
+    color: #FFFFFF;
+    
+}
